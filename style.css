@@ -21,6 +21,7 @@ main {
     background-color: rgb(2, 115, 202);
     box-shadow: 4px 1px 20px 1px;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 main>div {
@@ -45,7 +46,6 @@ main>div {
     justify-content: space-evenly;
     width: 52%;
     background-color: #F0F0F0;
-    border-radius: 0 0 0 6px;
 }
 
 .results {
@@ -60,7 +60,6 @@ main>div {
     width: 48%;
     background-color: #FFFFFF;
     overflow-wrap: anywhere;
-    border-radius: 0 0 6px 0;
 }
 
 .in-group {
